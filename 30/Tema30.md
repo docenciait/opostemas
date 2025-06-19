@@ -85,11 +85,11 @@ La estrategia de pruebas debe definirse en función del modelo de desarrollo, lo
 * **Automatización de pruebas**: reduce tiempos y mejora la eficiencia del ciclo de vida.
 
 ```mermaid
-graph TD
-    EscribirTest --> ImplementarFuncionalidad
-    ImplementarFuncionalidad --> EjecutarTest
-    EjecutarTest --> Refactorizar
-    Refactorizar --> EscribirTest
+    graph TD
+        EscribirTest --> ImplementarFuncionalidad
+        ImplementarFuncionalidad --> EjecutarTest
+        EjecutarTest --> Refactorizar
+        Refactorizar --> EscribirTest
 ```
 
 **Ventajas de la automatización:**
